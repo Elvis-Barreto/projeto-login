@@ -19,20 +19,18 @@
                 <p>Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuarações do ambiente. </p>
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
-                        <div class="pulse">
                             <span class="material-symbols-outlined">person</span>
                         <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
                         <label for="iogin">Login</label>
                     </div>
                     <div class="campo">
-                        <div class="pulse">
                             <span class="material-symbols-outlined">vpn_key</span>
-                        <input type="password" name="senha" required minlength="8" maxlength="20">
+                        <input type="password" name="senha" placeholder="sua senha" minlength="8" maxlength="20">
                         <label for="isenha">Senha</label>
                     </div>
 
-                    <input type="submit" value="Entrar">
-                    <a href="esqueci.html">
+                    <input type="submit" value="Entrar" class="entrar">
+                    <a href="esqueci.html" class="botao">
                         Esqueci a senha <span class="material-symbols-outlined">mail</span>
                     </a>
                 </form>
